@@ -135,8 +135,7 @@ CREATE TABLE `log_in` (
 --
 
 INSERT INTO `log_in` (`User_Name`, `Password`) VALUES
-('admin', '123456'),
-('neamulbd95', '456789');
+('admin', '123456');
 
 -- --------------------------------------------------------
 
@@ -178,15 +177,7 @@ CREATE TABLE `mobile` (
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `neamulbd95`
---
 
-CREATE TABLE `neamulbd95` (
-  `Item_ID` varchar(15) NOT NULL,
-  `Quantity` int(2) NOT NULL,
-  `total_price` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -238,12 +229,6 @@ CREATE TABLE `user_information` (
   `User_Gender` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `user_information`
---
-
-INSERT INTO `user_information` (`User_Name`, `User_id`, `User_email`, `User_Password`, `User_Mobile`, `User_Gender`) VALUES
-('Neamul Haque', 'neamulbd95', 'neamulhaque.naem@gmail.com', '456789', '01511111111', 'Male');
 
 -- --------------------------------------------------------
 
